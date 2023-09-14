@@ -1,0 +1,40 @@
+{
+  "configurations" : [
+    {
+      "id" : "D60AD3A0-7D7B-4FF8-B875-FFC269FDB738",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Fetch_Project.xcodeproj",
+      "identifier" : "9C9A61A12AAE745B00A8400A",
+      "name" : "Fetch_Project"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Fetch_Project.xcodeproj",
+        "identifier" : "9C9A61DE2AB22A4500A8400A",
+        "name" : "Fetch_ProjectTests"
+      }
+    },
+    {
+      "skippedTests" : [
+        "MainMenuTest"
+      ],
+      "target" : {
+        "containerPath" : "container:Fetch_Project.xcodeproj",
+        "identifier" : "9C7DE3792AB3909D00DCD6A0",
+        "name" : "Fetch_ProjectUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
